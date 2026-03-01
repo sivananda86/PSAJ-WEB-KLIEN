@@ -1,0 +1,88 @@
+/* ==================================================
+   TABLET
+================================================== */
+@media (max-width: 992px) {
+
+    .hero__title {
+        font-size: 48px;
+    }
+
+    .nav-menu {
+        gap: 24px;
+    }
+
+    .logo__bg {
+        width: 140px;
+        height: 70px;
+    }
+
+    .logo__bg img {
+        height: 38px;
+    }
+}
+
+/* ==================================================
+   MOBILE
+================================================== */
+@media (max-width: 768px) {
+
+    .topbar {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .topbar__content {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .topbar__info {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .navbar__content {
+        flex-direction: column;
+        gap: 16px;
+        padding: 10px 0;
+    }
+
+    .nav-menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+    }
+
+    .hero {
+        min-height: 80vh;
+        padding: 60px 0;
+    }
+
+    .hero__title {
+        font-size: 36px;
+    }
+
+    .hero__subtitle {
+        font-size: 16px;
+    }
+
+    .btn--primary {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1024px){
+    .contact-form::before{
+        height:320px;
+        left:-55px;
+        width:110px;
+    }
+}
+
+@media (max-width:768px){
+    .contact-form::before{
+        display:none;
+    }
+}
